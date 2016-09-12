@@ -1,0 +1,8 @@
+{
+  "name": "angular-easy-loading",
+  "description": "",
+  "homepage": "https://github.com/thr0wn/angular-easy-loading",
+  "dependencies": {
+    "components-font-awesome": "^4.6.1"
+  }
+}

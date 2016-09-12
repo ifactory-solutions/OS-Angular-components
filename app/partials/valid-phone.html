@@ -1,0 +1,14 @@
+<div class="container">
+    <form name="form">
+        <h1 class="col-sm-12">valid-phone</h1>
+        <p class="col-sm-12 help-block">Diretiva para validação de telefones BR, valida telefones já com o 9º dígito.</p>
+
+        <p class="col-sm-4"><input type="text" id="tel"
+                                   name="tel" class="form-control" placeholder="(00) 0 0000.0000"
+                                   data-ng-model="tel"
+                                   valid-phone></p>
+
+        <p class="col-sm-12"><strong>Campo {{form.tel.$invalid ? 'inválido' : 'válido'}}</strong></p>
+    </form>
+
+</div>

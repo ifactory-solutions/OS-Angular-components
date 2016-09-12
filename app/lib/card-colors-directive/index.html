@@ -1,0 +1,15 @@
+<div id="card-colors" class="col-xs-3">
+    <div class="box-card-colors" style="background-color: #{{data.color}}; min-height: 200px;">
+        <h3 class="title">{{data.title}}</h3>
+        <p class="message">{{data.msg}}</p>
+        <div class="center" style="text-align: center;">
+            <button class="myButton" ng-click="clicked()">click on</button>
+        </div>
+    </div>
+
+    <div class="col-xs-12" ng-show="isClicked">
+        <p class="rounded" style="background-color: #{{data.color}};">{{data.title}}</p>
+        <p class="rounded" style="background-color: #{{data.color}};">{{data.msg}}</p>
+    </div>
+</div>
+

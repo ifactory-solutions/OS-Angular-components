@@ -1,0 +1,30 @@
+<div class="container">
+    <form name="form">
+        <h1 class="col-sm-12">valid-date</h1>
+        <p class="col-sm-12 help-block">Diretiva para validação de data no formato BR, possui parâmetros opcionais de data máxima e data mínima.</p>
+
+        <p class="col-sm-4"><input type="text" id="data"
+                  name="data" class="form-control" placeholder="dd/mm/aaaa"
+                  data-ng-model="data"
+                  valid-date valid-date-format="'DD/MM/YYYY'" valid-date-min="'10/08/2016'" valid-date-max="'30/08/2016'"></p>
+
+        <p class="col-sm-12">
+            <strong>Campo {{form.data.$invalid ? 'inválido' : 'válido'}}</strong> <br>
+            <strong>Max: </strong>{{form.data.$error.validDateMax ? 'inválido' : 'válido'}} <br>
+            <strong>Mim: </strong>{{form.data.$error.validDateMin ? 'inválido' : 'válido'}}
+        </p>
+
+        <p class="col-sm-12">
+            <strong>Dependências</strong> <br>
+            <em>MomentJS:</em> <a href="http://momentjs.com/">momentjs.com</a>
+        </p>
+
+        <p class="col-sm-12">
+            <strong>Parâmetros</strong> <br>
+            <em>valid-date-max:</em> 10/08/2016 <br>
+            <em>valid-date-min:</em> 30/08/2016 <br>
+            <em>valid-date-format:</em> DD/MM/YYYY
+        </p>
+    </form>
+
+</div>

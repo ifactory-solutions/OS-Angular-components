@@ -1,0 +1,85 @@
+.mini-box {
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: #a2a1a1 0px 1px 3px 0px;
+    margin-top: 10px;
+}
+
+.overflow-box {
+    min-height: 200px;
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.mini-box div {
+    color: #737575;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.mini-box-bg-blue {
+    background-color: #419fcc;
+}
+
+.mini-box-bg-blue-light {
+    background-color: #417ccc;
+}
+
+.mini-box-bg-blue-strong {
+    background-color: #4168cc;
+}
+
+.mini-box p.title-mini-box {
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    border: none;
+    margin-top: 5px;
+}
+
+.mini-box-bg-blue-light p.label-mini-box,
+.mini-box-bg-blue p.label-mini-box,
+.mini-box-bg-blue-strong p.label-mini-box {
+    margin-top: 5px;
+    border-bottom: #fff solid 1px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px 0 5px 10px;
+    color: #464646;
+    position: relative;
+}
+
+.mini-box-bg-blue p.label-mini-box {
+    box-shadow: #235973 0px 1px 3px 0px;
+}
+
+.mini-box-bg-blue-light p.label-mini-box {
+    box-shadow: #296ACC 0px 1px 3px 0px;
+}
+
+.mini-box-bg-blue-strong p.label-mini-box {
+    box-shadow: #4168cc 0px 1px 3px 0px;
+}
+
+.label-mini-box-close {
+    position: absolute;
+    right: 6px;
+    color: #f55252;
+    top: 9px;
+    cursor: pointer;
+}
+
+.msg-label-mini-box-empty {
+    margin-top: 40px;
+    color: #fff!important;
+    text-align: center;
+    border: none!important;
+}
+
+.msg-label-mini-box-empty i {
+    font-size: 2em;
+    display: block;
+    margin-bottom: 10px;
+}

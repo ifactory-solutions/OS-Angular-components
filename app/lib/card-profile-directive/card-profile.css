@@ -1,0 +1,131 @@
+#socialMediaProfile .box-list-profile {
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    background: #fff;
+    height: 180px;
+    border-radius: 10px;
+}
+
+#socialMediaProfile .box-list-profile.box-twitter {
+    box-shadow: 0 1px 2px rgba(0,0,0,.4);
+    background: #4ec6f8;
+    border-color: rgba(255,255,255,.8);
+}
+
+#socialMediaProfile .box-list-profile.box-facebook {
+    box-shadow: 0 1px 2px rgba(0,0,0,.4);
+    background: #4d6bab;
+    border-color: rgba(255,255,255,.8);
+}
+
+#socialMediaProfile .box-list-profile.box-googleAnalytics,
+#socialMediaProfile .box-list-profile.box-googleanalytics {
+    box-shadow: 0 1px 2px rgba(0,0,0,.4);
+    background: #F77231;
+    border-color: rgba(255,255,255,.8);
+}
+
+#socialMediaProfile .box-list-profile.box-snapchat,
+#socialMediaProfile .box-list-profile.box-snapchat {
+    box-shadow: 0 1px 2px rgba(0,0,0,.4);
+    background: #fbc80f;
+    border-color: rgba(255,255,255,.8);
+}
+
+#socialMediaProfile .profile-name {
+    margin-top: 5px;
+    font-size: 19px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff;
+}
+
+#socialMediaProfile .people {
+    display: block;
+    line-height: 25px;
+}
+
+#socialMediaProfile .followers.twitter-card,
+#socialMediaProfile .followers.facebook-card {
+    color: #fff;
+}
+
+#socialMediaProfile .box-list-profile .icon-social-media {
+    position: absolute;
+    color: #fff;
+    left: 0.8em;
+    top: 0.4em;
+}
+
+#socialMediaProfile .box-list-profile .icon-trash-social-media {
+    position: absolute;
+    color: #fff;
+    right: 0;
+    top: -0.4em;
+    cursor: pointer;
+    display: none;
+}
+
+#socialMediaProfile .avatar {
+    float: left;
+    margin-right: 15px;
+}
+
+#socialMediaProfile .value {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#socialMediaProfile .user-name {
+    margin-top: 8px;
+}
+
+#socialMediaProfile .indicators {
+    margin-top: 20px;
+}
+
+#socialMediaProfile span.ficon {
+    font-size: 0.6em;
+    margin-right: 4px;
+}
+
+#socialMediaProfile span.ficon.add {
+    font-size: 1.6em;
+    color: #B6C6CC;
+}
+
+#socialMediaProfile .tile {
+    height: 6em;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+#socialMediaProfile .tile p {
+    font-size: 1.2em;
+}
+
+#socialMediaProfile .tile .textHide p {
+    font-size: 0.8em;
+}
+
+#socialMediaProfile .tile.tile-6 {
+    background-color: #E6EAE4;
+}
+
+#socialMediaProfile .photoUser {
+    text-align: center;
+}
+
+#socialMediaProfile .box-list-profile .photoUser img {
+    margin-top: 10px;
+    width: 75px;
+    height: 75px;
+    border-radius: 40px;
+}
+
+#socialMediaProfile .center {
+    text-align: center;
+}
+
+#socialMediaProfile .email {
+    color: #fff!important;
+}

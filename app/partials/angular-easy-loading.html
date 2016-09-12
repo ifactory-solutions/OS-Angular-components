@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="header">
+            <h2>Angular easy loading demo</h2>
+        </div>
+        <hr>
+        <div class="body">
+            <p class="inline-block">The DOM elements bellow has the loading overlay controlled by the following checkbox:</p>&nbsp;<input type="checkbox"
+                ng-model="loading">
+            <div class="widget-with-loading" thr-loading="loading"></div>
+            <br>
+            <p>The loading overlay background color and the spinner color can be customized:</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="widget-with-loading colors-1" thr-loading="loading"></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="widget-with-loading colors-2" thr-loading="loading"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

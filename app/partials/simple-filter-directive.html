@@ -1,0 +1,11 @@
+<div ng-controller="SimpleFilterCtrl">
+    <simple-filter sfconfig="config"></simple-filter>
+    <div>
+        <div ng-repeat="list in model | filter:config.nameSearched" class="col-xs-12 list-simple-filter">
+            <div class="col-xs-3">{{list.name}}</div>
+            <div class="col-xs-3">{{list.address}}</div>
+            <div class="col-xs-3">{{list.email}}</div>
+            <div class="col-xs-3">{{list.phoneNumber}}</div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>thr-pdf-viewer demo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
+        crossorigin="anonymous">
+    <link href="thr-pdf-viewer.css" rel="stylesheet">
+    <link href="demo.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-touch/1.5.8/angular-touch.min.js"></script>
+    <script src="thr-pdf-viewer.js"></script>
+    <script src="demo.js"></script>
+</head>
+
+<body ng-app="demo-app" ng-controller="DemoCtrl">
+    <div class="container">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="header">
+                <h2>thr-pdf-viewer example</h2>
+            </div>
+            <hr>
+            <div class="body">
+                <ul>
+                    <li>
+                        <p class="inline-block">Click on the icon to see an amazing pdf!</p>&nbsp;
+                        <i class="disable-select fa fa-file-pdf-o fa-lg" ng-click="pdfViewer.open('Amazing pdf!', 'test.pdf')"></i>
+                    </li>
+                </ul>
+                <thr-pdf-viewer accessor="pdfViewer"></thr-pdf-viewer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

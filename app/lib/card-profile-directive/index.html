@@ -1,0 +1,38 @@
+<div id="socialMediaProfile" style="position: relative;" class="col-xs-3 card-{{data.elementID}}">
+    <div id="{{data.elementID}}" class="box-list-profile box-{{data.type}}">
+
+        <div class="col-xs-12">
+
+            <div class="icon-social-media">
+                <i class="fa {{data.icon}} bigger-200"></i>
+            </div>
+
+            <div class="center col-xs-12 photoUser">
+                <img class="circular-img center" alt="{{data.profile.name}}" ng-src="{{data.profile.img}}"
+                     data-pollinator-feature="snapshot_twitter"
+                     data-pollinator-action="go_to_report_avatar" data-pollinator-trigger="click">
+            </div>
+
+            <div class="col-xs-12 center user-name">
+                <strong class="profile-name" title="{{data.profile.name}}">{{data.profile.screenName}}</strong>
+            </div>
+
+            <div class="col-xs-12 pull-left indicators no-padding">
+                <div class="center email">{{data.profile.email}}</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div ng-show="data.type !== 'googleAnalytics'">
+        <div class="link-detail-connection-{{data.elementID}} link-dashboard-{{data.type}}"
+             ng-click="goToAnalyzeProfile()">
+            <p class="title-link-dash">
+                {{i18n.analyzeProfile}}
+            </p>
+        </div>
+    </div>
+
+</div>
+
