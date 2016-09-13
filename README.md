@@ -1,16 +1,18 @@
-# angular-seed — the seed for AngularJS apps
+# ifactory OP-Angular-Components — Open Source Directives based on the angular seed skeleton
 
-This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
-You can use it to quickly bootstrap your angular webapp projects and dev environment for these
+This project contains a set of directives distributed under the Apache License 2.0 that you can
+quiclky deploy and use in your own projects. Those directives uses the Angular Seed Project
+where you can quickly bootstrap your angular webapp projects and dev environment for these
 projects.
 
-The seed contains AngularJS libraries, test libraries and a bunch of scripts all preconfigured for
-instant web development gratification. Just clone the repo (or download the zip/tarball), start up
-our (or your) webserver and you are ready to develop and test your application.
+As the angular seed, the code contains AngularJS libraries, test libraries and a bunch of scripts
+all preconfigured for instant web development gratification. Just clone the repo (or download the
+zip/tarball), start upour (or your) webserver and you are ready to preview all the directives (from
+the index.html), develop and use them on your own application.
 
-The seed app doesn't do much, just shows how to wire two controllers and views together. You can
-check it out by opening app/index.html in your browser (might not work file `file://` scheme in
-certain browsers, see note below).
+You can test all the directives straight from the index.html. The seed app doesn't do much, just
+shows how to wire two controllers and views together. You can check it out by opening app/index.html
+in your browser (might not work file `file://` scheme in certain browsers, see note below).
 
 _Note: While angular is client-side-only technology and it's possible to create angular webapps that
 don't require a backend server at all, we recommend hosting the project files using a local
@@ -19,9 +21,9 @@ sandbox implementation varies between browsers, but quite often prevents things 
 etc to function properly when an html page is opened via `file://` scheme instead of `http://`._
 
 
-## How to use angular-seed
+## How to use ifactory OP-Angular-Components — Open Source Directives
 
-Clone the angular-seed repository and start hacking...
+Clone the ifactory OP-Angular-Components repository and start hacking...
 
 
 ### Running the app during development
