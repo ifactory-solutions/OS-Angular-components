@@ -143,11 +143,11 @@ fetch the changes and merge them into your project with git.
 
 ## Contributors
 
-Humberto Andrade \n
-Henrique Andrade \n
-Daniel Laurindo \n
-Bruno Alves \n 
-Pedro Ferreira \n
+Humberto Andrade
+Henrique Andrade
+Daniel Laurindo 
+Bruno Alves
+Pedro Ferreira
 Ramon Oliveira
 
 ## Contact
