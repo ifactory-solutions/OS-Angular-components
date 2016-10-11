@@ -141,6 +141,15 @@ fetch the changes and merge them into your project with git.
         filtersSpec.js          --> specs for filters
         servicesSpec.js         --> specs for services
 
+## Contributors
+
+Humberto Andrade
+Henrique Andrade
+Daniel Laurindo
+Bruno Alves
+Pedro Ferreira
+Ramon Oliveira
+
 ## Contact
 
 For more information on AngularJS please check out http://angularjs.org/
